@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\21 - WCF Assignment - 1\21 - WCF Assignment - 1\bin\21 - WCF Assignment - 1.dll.config
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\21 - WCF Assignment - 1\21 - WCF Assignment - 1\bin\21 - WCF Assignment - 1.dll
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\21 - WCF Assignment - 1\21 - WCF Assignment - 1\bin\21 - WCF Assignment - 1.pdb
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\21 - WCF Assignment - 1\21 - WCF Assignment - 1\obj\Debug\21 - WCF Assignment - 1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\21 - WCF Assignment - 1\21 - WCF Assignment - 1\obj\Debug\21 - WCF Assignment - 1.dll
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\21 - WCF Assignment - 1\21 - WCF Assignment - 1\obj\Debug\21 - WCF Assignment - 1.pdb
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task3\21 - WCF Assignment - 1\21 - WCF Assignment - 1\bin\21 - WCF Assignment - 1.dll.config
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task3\21 - WCF Assignment - 1\21 - WCF Assignment - 1\bin\21 - WCF Assignment - 1.dll
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task3\21 - WCF Assignment - 1\21 - WCF Assignment - 1\bin\21 - WCF Assignment - 1.pdb
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task3\21 - WCF Assignment - 1\21 - WCF Assignment - 1\obj\Debug\21 - WCF Assignment - 1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task3\21 - WCF Assignment - 1\21 - WCF Assignment - 1\obj\Debug\21 - WCF Assignment - 1.dll
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task3\21 - WCF Assignment - 1\21 - WCF Assignment - 1\obj\Debug\21 - WCF Assignment - 1.pdb
