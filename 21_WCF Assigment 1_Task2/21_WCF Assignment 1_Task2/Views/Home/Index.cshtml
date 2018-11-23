@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>WCF Service Multiple Bindings Usage IIS Host</h3>
+
+        <table>
+            <tr>
+                
+                <td>
+                    <input type="button" value="Button For HTTP" id="idbtnHTTP" onclick="location.href='@Url.Action("Index", "Home",new { btnclickVal = "HTTPButton" }) ' " />
+                </td>
+           </tr>
+            <tr></tr>
+            <tr>
+                <td>
+                    <h3>Job Opening</h3>
+                    <ul>
+                        @if(ViewBag.GetOpening !=null)
+                        { 
+                        foreach (var job in ViewBag.GetOpening)
+                        {
+                            <li>  @job</li>
+                        }
+                        }
+                    </ul>
+                </td>
+                </tr>
+            <tr>
+
+            </tr>
+                <tr>
+                <td>
+                    <h3>Job Opening By Role</h3>
+
+                    <ul>
+                    @if (ViewBag.GetOpeningByRole != null)
+                    {
+                                            foreach (var jobbyRole in ViewBag.GetOpeningByRole)
+                                            {
+                                                <li>  @jobbyRole</li>
+                                            }
+                    }
+                    </ul>
+
+
+
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+
+</div>
