@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task2\21_WCF Assignment 1_Task2\21_WCF Assigment 1_Task2\21_WCF Assigment 1_Task2\bin\21_WCF Assigment 1_Task2.dll.config
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task2\21_WCF Assignment 1_Task2\21_WCF Assigment 1_Task2\21_WCF Assigment 1_Task2\bin\21_WCF Assigment 1_Task2.dll
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task2\21_WCF Assignment 1_Task2\21_WCF Assigment 1_Task2\21_WCF Assigment 1_Task2\bin\21_WCF Assigment 1_Task2.pdb
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task2\21_WCF Assignment 1_Task2\21_WCF Assigment 1_Task2\21_WCF Assigment 1_Task2\obj\Release\21_WCF Assigment 1_Task2.dll
+C:\Users\Admin\Desktop\Assignments\21 - WCF Assignment 1\Task2\21_WCF Assignment 1_Task2\21_WCF Assigment 1_Task2\21_WCF Assigment 1_Task2\obj\Release\21_WCF Assigment 1_Task2.pdb
