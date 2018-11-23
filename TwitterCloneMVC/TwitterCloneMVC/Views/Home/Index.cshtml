@@ -1,0 +1,65 @@
+﻿@model TwitterCloneMVC.Person
+
+@{
+    ViewBag.Title = "Login Page";
+}
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title> login Page></title>
+       @*<script>
+           #login-div{
+               position: absolute;
+               left: 40 %;
+           }
+    </script>*@
+</head>
+<body>
+    <h2>Welcome to my Twitter Clone</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div id="login-div">
+        <table>
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.User_id)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.User_id)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.password)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.password)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login"/>
+
+                </td>
+            </tr>
+
+        </table><br />
+        <table>
+            <tr>
+                <td></td>
+                <td>
+                    @Html.Label("", "New User?")
+                    @Html.ActionLink("Sign Up", "SignUp", "Home")
+                </td>
+            </tr>
+        </table>
+    </div>
+}
+</body>
+</html>

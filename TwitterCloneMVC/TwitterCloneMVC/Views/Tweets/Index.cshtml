@@ -1,0 +1,78 @@
+﻿@model IEnumerable<TwitterCloneMVC.TWEET>
+
+@{
+    ViewBag.Title = "Tweets Details";
+}
+
+<h2>Index</h2>
+
+<style>
+    #Wrapper {
+        background-color: lightgray;
+        z-index: 1;
+        height: 100px;
+        width: 150px;
+        position: relative;
+    }
+</style>
+<p>
+    @Html.ActionLink("Add Tweets", "Create")
+</p>
+<table>
+    <tr>
+        <td>
+            <ul id="Wrapper" style="padding-top:10px;">
+                <li>
+                    @Html.Label("", "Tweets ")
+                    @if (Model != null)
+                    {
+                        @Html.Label(Model.ToList().Count().ToString())
+                    }
+                </li>
+                <li>
+                    @Html.Label("", "Followers 2")                    
+                </li>
+                <li>
+                    @Html.Label("", "Following 2")                   
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<table class="table" style="padding-left:50px;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Person.User_id)
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.message)
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.created)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person.User_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.message)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.created)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id=item.tweet_id }) |*@
+                @*@Html.ActionLink("Details", "Details", new { id=item.tweet_id }) |*@
+                @Html.ActionLink("Delete", "Delete", new { id = item.tweet_id })
+            </td>
+        </tr>
+    }
+
+</table>
